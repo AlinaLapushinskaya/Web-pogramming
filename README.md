@@ -34,19 +34,22 @@ git add,
 ***
 Код:
 ***
-`hello.php
-<?php
+hello.php
+***
+`<?php
 
-echo "Hello World!\n";
-
+echo "Hello World!\n";`
+***
 
 time.php
-<?php
-echo (new DateTime())->format('Y');
-
+***
+`<?php
+echo (new DateTime())->format('Y');`
+***
 
 class.php
-<?php
+***
+`<?php
 class A
 {
     function foo()
@@ -78,10 +81,11 @@ $b = new B();
 $b->bar();
 
 B::bar();
-?>
-
+?>`
+***
 array.php
-<?php
+***
+`<?php
 $keys = ['sky', 'grass', 'orange'];
 $values = ['blue', 'green', 'orange'];
  
@@ -94,6 +98,10 @@ foreach ($arrays as list($a, $b)) {
     $c = $a + $b;
     echo($c . ', '); 
 }`
+***
+Таким чином, у цьому проекті було відпрацьовано основні моменти, а саме створення класу, методів, функцій, робота з масивами.
+***
+Висновки: було проведено ознайомлення з php, а також програмними продуктами, за допомогою яких можна, навіть в онлайн режимі,  розробляти веб-сторінки.
 
 
 
